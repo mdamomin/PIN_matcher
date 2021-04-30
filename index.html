@@ -104,6 +104,7 @@
                 var attemptCount = document.getElementById("attemptCount").innerText;
                 if (attemptCount == 0){
                     document.getElementById("submit").disabled = true;
+                    document.getElementById("submit").style.backgroundColor = "gray";
                     document.getElementById("notMatched").style.display = "none";
                     document.getElementById("matched").style.display = "none";
                     document.getElementById("generatorDisplay").value = "";
